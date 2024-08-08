@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "CursedTimer";
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+* {
+    text-align: center;
+}
+
+body {
+    background-image: url(background.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: white;
+    padding: 0 25px;
+    border-radius: 20px;
+    border: 10px double rgb(195, 122, 33);
+    box-shadow: 0 0 20px rgb(193, 166, 56);
+}
+
+
+#calc {
+    background-color: grey;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 35px;
+    margin: 0 auto;
+    display: grid;
+    gap: 5px;
+}
+
+#screen {
+    font-family: "CursedTimer";
+    background-color: orange;
+    height: 30px;
+    width: 100% - 40px;
+    font-size: 30px;
+    padding: 20px;
+    text-align: right;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    overflow: hidden;
+}
+
+button {
+    font-family: "CursedTimer";
+    width: 100%;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+    background-color: beige;
+}
+
+.sign {
+    background-color: brown;
+}
+
+.operation {
+    color: green;
+}
+
+#equal {
+    background-color: yellow;
+}
+
+#clear {
+    background-color: greenyellow;
+}
